@@ -1,0 +1,72 @@
+C:\Users\Cristian\Documents\GitHub\TP Winform Iglesias Ferrari\TP Winform Iglesias Ferrari\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\Cristian\Documents\GitHub\TP Winform Iglesias Ferrari\TP Winform Iglesias Ferrari\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Cristian\Documents\GitHub\TP Winform Iglesias Ferrari\TP Winform Iglesias Ferrari\Negocio\bin\Debug\Negocio.dll
+C:\Users\Cristian\Documents\GitHub\TP Winform Iglesias Ferrari\TP Winform Iglesias Ferrari\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Cristian\Documents\GitHub\TP Winform Iglesias Ferrari\TP Winform Iglesias Ferrari\Negocio\bin\Debug\Dominio.dll
+C:\Users\Cristian\Documents\GitHub\TP Winform Iglesias Ferrari\TP Winform Iglesias Ferrari\Negocio\bin\Debug\Dominio.pdb
+C:\Users\Cristian\Documents\GitHub\TP Winform Iglesias Ferrari\TP Winform Iglesias Ferrari\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Cristian\Documents\GitHub\TP Winform Iglesias Ferrari\TP Winform Iglesias Ferrari\Negocio\obj\Debug\Negocio.dll
+C:\Users\Cristian\Documents\GitHub\TP Winform Iglesias Ferrari\TP Winform Iglesias Ferrari\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Chivi\Desktop\conCris\Negocio\bin\Debug\Negocio.dll
+C:\Users\Chivi\Desktop\conCris\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Chivi\Desktop\conCris\Negocio\bin\Debug\Dominio.dll
+C:\Users\Chivi\Desktop\conCris\Negocio\bin\Debug\Dominio.pdb
+C:\Users\Chivi\Desktop\conCris\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\Chivi\Desktop\conCris\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Chivi\Desktop\conCris\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Chivi\Desktop\conCris\Negocio\obj\Debug\Negocio.dll
+C:\Users\Chivi\Desktop\conCris\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Cristian\Documents\GitHub\Tpwinform Iglesias Ferrari v1.5\Tpwinform\TpWinform-Iglesias-Ferrari\Negocio\bin\Debug\Negocio.dll
+C:\Users\Cristian\Documents\GitHub\Tpwinform Iglesias Ferrari v1.5\Tpwinform\TpWinform-Iglesias-Ferrari\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Cristian\Documents\GitHub\Tpwinform Iglesias Ferrari v1.5\Tpwinform\TpWinform-Iglesias-Ferrari\Negocio\bin\Debug\Dominio.dll
+C:\Users\Cristian\Documents\GitHub\Tpwinform Iglesias Ferrari v1.5\Tpwinform\TpWinform-Iglesias-Ferrari\Negocio\bin\Debug\Dominio.pdb
+C:\Users\Cristian\Documents\GitHub\Tpwinform Iglesias Ferrari v1.5\Tpwinform\TpWinform-Iglesias-Ferrari\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\Cristian\Documents\GitHub\Tpwinform Iglesias Ferrari v1.5\Tpwinform\TpWinform-Iglesias-Ferrari\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Cristian\Documents\GitHub\Tpwinform Iglesias Ferrari v1.5\Tpwinform\TpWinform-Iglesias-Ferrari\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Cristian\Documents\GitHub\Tpwinform Iglesias Ferrari v1.5\Tpwinform\TpWinform-Iglesias-Ferrari\Negocio\obj\Debug\Negocio.dll
+C:\Users\Cristian\Documents\GitHub\Tpwinform Iglesias Ferrari v1.5\Tpwinform\TpWinform-Iglesias-Ferrari\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Chivi\Desktop\Nueva carpeta\Tpwinform 1.6\TpWinform-Iglesias-Ferrari\Negocio\bin\Debug\Negocio.dll
+C:\Users\Chivi\Desktop\Nueva carpeta\Tpwinform 1.6\TpWinform-Iglesias-Ferrari\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Chivi\Desktop\Nueva carpeta\Tpwinform 1.6\TpWinform-Iglesias-Ferrari\Negocio\bin\Debug\Dominio.dll
+C:\Users\Chivi\Desktop\Nueva carpeta\Tpwinform 1.6\TpWinform-Iglesias-Ferrari\Negocio\bin\Debug\Dominio.pdb
+C:\Users\Chivi\Desktop\Nueva carpeta\Tpwinform 1.6\TpWinform-Iglesias-Ferrari\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\Chivi\Desktop\Nueva carpeta\Tpwinform 1.6\TpWinform-Iglesias-Ferrari\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Chivi\Desktop\Nueva carpeta\Tpwinform 1.6\TpWinform-Iglesias-Ferrari\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Chivi\Desktop\Nueva carpeta\Tpwinform 1.6\TpWinform-Iglesias-Ferrari\Negocio\obj\Debug\Negocio.dll
+C:\Users\Chivi\Desktop\Nueva carpeta\Tpwinform 1.6\TpWinform-Iglesias-Ferrari\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Cristian\Documents\GitHub\Práctica Cris&Chivi\TPWinform-Iglesias_Ferrari\Negocio\bin\Debug\Negocio.dll
+C:\Users\Cristian\Documents\GitHub\Práctica Cris&Chivi\TPWinform-Iglesias_Ferrari\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Cristian\Documents\GitHub\Práctica Cris&Chivi\TPWinform-Iglesias_Ferrari\Negocio\bin\Debug\Dominio.dll
+C:\Users\Cristian\Documents\GitHub\Práctica Cris&Chivi\TPWinform-Iglesias_Ferrari\Negocio\bin\Debug\Dominio.pdb
+C:\Users\Cristian\Documents\GitHub\Práctica Cris&Chivi\TPWinform-Iglesias_Ferrari\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\Cristian\Documents\GitHub\Práctica Cris&Chivi\TPWinform-Iglesias_Ferrari\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Cristian\Documents\GitHub\Práctica Cris&Chivi\TPWinform-Iglesias_Ferrari\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Cristian\Documents\GitHub\Práctica Cris&Chivi\TPWinform-Iglesias_Ferrari\Negocio\obj\Debug\Negocio.dll
+C:\Users\Cristian\Documents\GitHub\Práctica Cris&Chivi\TPWinform-Iglesias_Ferrari\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Chivi\Desktop\TpWInformCrisChivi\TP-winf-IglesiasFerrari\Negocio\bin\Debug\Negocio.dll
+C:\Users\Chivi\Desktop\TpWInformCrisChivi\TP-winf-IglesiasFerrari\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Chivi\Desktop\TpWInformCrisChivi\TP-winf-IglesiasFerrari\Negocio\bin\Debug\Dominio.dll
+C:\Users\Chivi\Desktop\TpWInformCrisChivi\TP-winf-IglesiasFerrari\Negocio\bin\Debug\Dominio.pdb
+C:\Users\Chivi\Desktop\TpWInformCrisChivi\TP-winf-IglesiasFerrari\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\Chivi\Desktop\TpWInformCrisChivi\TP-winf-IglesiasFerrari\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Chivi\Desktop\TpWInformCrisChivi\TP-winf-IglesiasFerrari\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Chivi\Desktop\TpWInformCrisChivi\TP-winf-IglesiasFerrari\Negocio\obj\Debug\Negocio.dll
+C:\Users\Chivi\Desktop\TpWInformCrisChivi\TP-winf-IglesiasFerrari\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Cristian\Desktop\Cosas de la facultad\-Programación 3\GIT PROG\CarritoDeProductos\Negocio\bin\Debug\Negocio.dll
+C:\Users\Cristian\Desktop\Cosas de la facultad\-Programación 3\GIT PROG\CarritoDeProductos\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Cristian\Desktop\Cosas de la facultad\-Programación 3\GIT PROG\CarritoDeProductos\Negocio\bin\Debug\Dominio.dll
+C:\Users\Cristian\Desktop\Cosas de la facultad\-Programación 3\GIT PROG\CarritoDeProductos\Negocio\bin\Debug\Dominio.pdb
+C:\Users\Cristian\Desktop\Cosas de la facultad\-Programación 3\GIT PROG\CarritoDeProductos\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\Cristian\Desktop\Cosas de la facultad\-Programación 3\GIT PROG\CarritoDeProductos\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Cristian\Desktop\Cosas de la facultad\-Programación 3\GIT PROG\CarritoDeProductos\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Cristian\Desktop\Cosas de la facultad\-Programación 3\GIT PROG\CarritoDeProductos\Negocio\obj\Debug\Negocio.dll
+C:\Users\Cristian\Desktop\Cosas de la facultad\-Programación 3\GIT PROG\CarritoDeProductos\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Hernan\Desktop\copia-master\Negocio\bin\Debug\Negocio.dll
+C:\Users\Hernan\Desktop\copia-master\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Hernan\Desktop\copia-master\Negocio\bin\Debug\Dominio.dll
+C:\Users\Hernan\Desktop\copia-master\Negocio\bin\Debug\Dominio.pdb
+C:\Users\Hernan\Desktop\copia-master\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\Hernan\Desktop\copia-master\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Hernan\Desktop\copia-master\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Hernan\Desktop\copia-master\Negocio\obj\Debug\Negocio.dll
+C:\Users\Hernan\Desktop\copia-master\Negocio\obj\Debug\Negocio.pdb

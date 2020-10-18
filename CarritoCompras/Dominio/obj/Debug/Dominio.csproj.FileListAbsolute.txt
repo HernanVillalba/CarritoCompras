@@ -1,0 +1,47 @@
+C:\Users\Cristian\Documents\GitHub\TP Winform Iglesias Ferrari\TP Winform Iglesias Ferrari\Dominio\bin\Debug\Dominio.dll
+C:\Users\Cristian\Documents\GitHub\TP Winform Iglesias Ferrari\TP Winform Iglesias Ferrari\Dominio\bin\Debug\Dominio.pdb
+C:\Users\Cristian\Documents\GitHub\TP Winform Iglesias Ferrari\TP Winform Iglesias Ferrari\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Cristian\Documents\GitHub\TP Winform Iglesias Ferrari\TP Winform Iglesias Ferrari\Dominio\obj\Debug\Dominio.dll
+C:\Users\Cristian\Documents\GitHub\TP Winform Iglesias Ferrari\TP Winform Iglesias Ferrari\Dominio\obj\Debug\Dominio.pdb
+C:\Users\Chivi\Desktop\conCris\Dominio\bin\Debug\Dominio.dll
+C:\Users\Chivi\Desktop\conCris\Dominio\bin\Debug\Dominio.pdb
+C:\Users\Chivi\Desktop\conCris\Dominio\obj\Debug\Dominio.csprojAssemblyReference.cache
+C:\Users\Chivi\Desktop\conCris\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Chivi\Desktop\conCris\Dominio\obj\Debug\Dominio.dll
+C:\Users\Chivi\Desktop\conCris\Dominio\obj\Debug\Dominio.pdb
+C:\Users\Cristian\Documents\GitHub\Tpwinform Iglesias Ferrari v1.5\Tpwinform\TpWinform-Iglesias-Ferrari\Dominio\bin\Debug\Dominio.dll
+C:\Users\Cristian\Documents\GitHub\Tpwinform Iglesias Ferrari v1.5\Tpwinform\TpWinform-Iglesias-Ferrari\Dominio\bin\Debug\Dominio.pdb
+C:\Users\Cristian\Documents\GitHub\Tpwinform Iglesias Ferrari v1.5\Tpwinform\TpWinform-Iglesias-Ferrari\Dominio\obj\Debug\Dominio.csprojAssemblyReference.cache
+C:\Users\Cristian\Documents\GitHub\Tpwinform Iglesias Ferrari v1.5\Tpwinform\TpWinform-Iglesias-Ferrari\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Cristian\Documents\GitHub\Tpwinform Iglesias Ferrari v1.5\Tpwinform\TpWinform-Iglesias-Ferrari\Dominio\obj\Debug\Dominio.dll
+C:\Users\Cristian\Documents\GitHub\Tpwinform Iglesias Ferrari v1.5\Tpwinform\TpWinform-Iglesias-Ferrari\Dominio\obj\Debug\Dominio.pdb
+C:\Users\Chivi\Desktop\Nueva carpeta\Tpwinform 1.6\TpWinform-Iglesias-Ferrari\Dominio\bin\Debug\Dominio.dll
+C:\Users\Chivi\Desktop\Nueva carpeta\Tpwinform 1.6\TpWinform-Iglesias-Ferrari\Dominio\bin\Debug\Dominio.pdb
+C:\Users\Chivi\Desktop\Nueva carpeta\Tpwinform 1.6\TpWinform-Iglesias-Ferrari\Dominio\obj\Debug\Dominio.csprojAssemblyReference.cache
+C:\Users\Chivi\Desktop\Nueva carpeta\Tpwinform 1.6\TpWinform-Iglesias-Ferrari\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Chivi\Desktop\Nueva carpeta\Tpwinform 1.6\TpWinform-Iglesias-Ferrari\Dominio\obj\Debug\Dominio.dll
+C:\Users\Chivi\Desktop\Nueva carpeta\Tpwinform 1.6\TpWinform-Iglesias-Ferrari\Dominio\obj\Debug\Dominio.pdb
+C:\Users\Cristian\Documents\GitHub\Práctica Cris&Chivi\TPWinform-Iglesias_Ferrari\Dominio\bin\Debug\Dominio.dll
+C:\Users\Cristian\Documents\GitHub\Práctica Cris&Chivi\TPWinform-Iglesias_Ferrari\Dominio\bin\Debug\Dominio.pdb
+C:\Users\Cristian\Documents\GitHub\Práctica Cris&Chivi\TPWinform-Iglesias_Ferrari\Dominio\obj\Debug\Dominio.csprojAssemblyReference.cache
+C:\Users\Cristian\Documents\GitHub\Práctica Cris&Chivi\TPWinform-Iglesias_Ferrari\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Cristian\Documents\GitHub\Práctica Cris&Chivi\TPWinform-Iglesias_Ferrari\Dominio\obj\Debug\Dominio.dll
+C:\Users\Cristian\Documents\GitHub\Práctica Cris&Chivi\TPWinform-Iglesias_Ferrari\Dominio\obj\Debug\Dominio.pdb
+C:\Users\Chivi\Desktop\TpWInformCrisChivi\TP-winf-IglesiasFerrari\Dominio\bin\Debug\Dominio.dll
+C:\Users\Chivi\Desktop\TpWInformCrisChivi\TP-winf-IglesiasFerrari\Dominio\bin\Debug\Dominio.pdb
+C:\Users\Chivi\Desktop\TpWInformCrisChivi\TP-winf-IglesiasFerrari\Dominio\obj\Debug\Dominio.csprojAssemblyReference.cache
+C:\Users\Chivi\Desktop\TpWInformCrisChivi\TP-winf-IglesiasFerrari\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Chivi\Desktop\TpWInformCrisChivi\TP-winf-IglesiasFerrari\Dominio\obj\Debug\Dominio.dll
+C:\Users\Chivi\Desktop\TpWInformCrisChivi\TP-winf-IglesiasFerrari\Dominio\obj\Debug\Dominio.pdb
+C:\Users\Cristian\Desktop\Cosas de la facultad\-Programación 3\GIT PROG\CarritoDeProductos\Dominio\bin\Debug\Dominio.dll
+C:\Users\Cristian\Desktop\Cosas de la facultad\-Programación 3\GIT PROG\CarritoDeProductos\Dominio\bin\Debug\Dominio.pdb
+C:\Users\Cristian\Desktop\Cosas de la facultad\-Programación 3\GIT PROG\CarritoDeProductos\Dominio\obj\Debug\Dominio.csprojAssemblyReference.cache
+C:\Users\Cristian\Desktop\Cosas de la facultad\-Programación 3\GIT PROG\CarritoDeProductos\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Cristian\Desktop\Cosas de la facultad\-Programación 3\GIT PROG\CarritoDeProductos\Dominio\obj\Debug\Dominio.dll
+C:\Users\Cristian\Desktop\Cosas de la facultad\-Programación 3\GIT PROG\CarritoDeProductos\Dominio\obj\Debug\Dominio.pdb
+C:\Users\Hernan\Desktop\copia-master\Dominio\bin\Debug\Dominio.dll
+C:\Users\Hernan\Desktop\copia-master\Dominio\bin\Debug\Dominio.pdb
+C:\Users\Hernan\Desktop\copia-master\Dominio\obj\Debug\Dominio.csprojAssemblyReference.cache
+C:\Users\Hernan\Desktop\copia-master\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Hernan\Desktop\copia-master\Dominio\obj\Debug\Dominio.dll
+C:\Users\Hernan\Desktop\copia-master\Dominio\obj\Debug\Dominio.pdb
