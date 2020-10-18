@@ -11,13 +11,13 @@ namespace WebForm
 {
     public partial class InicioWeb : System.Web.UI.Page
     {
-        List<Articulos> Lista = new List<Articulos>(); 
+        public List<Articulos> ListaArticulo { get; set; }
         protected void Page_Load(object sender, EventArgs e)
         {
             //datagriedview
             ArticuloNegocio negocio = new ArticuloNegocio();
-            Lista = negocio.Listar();
-            dgvArticulos.DataSource = Lista;
+            ListaArticulo = negocio.Listar();
+            dgvArticulos.DataSource = ListaArticulo;
             dgvArticulos.DataBind();
 
 

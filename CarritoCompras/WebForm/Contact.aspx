@@ -17,5 +17,4 @@
     </address>
 
     <a class="btn btn-primary" href="Default.aspx">Volver</a>
-    </address>
 </asp:Content>
