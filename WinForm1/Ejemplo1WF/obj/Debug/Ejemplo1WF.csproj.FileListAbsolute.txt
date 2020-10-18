@@ -1,0 +1,10 @@
+C:\Users\Hernan\Documents\Programación III\WinForm1\Ejemplo1WF\bin\Debug\Ejemplo1WF.exe.config
+C:\Users\Hernan\Documents\Programación III\WinForm1\Ejemplo1WF\bin\Debug\Ejemplo1WF.exe
+C:\Users\Hernan\Documents\Programación III\WinForm1\Ejemplo1WF\bin\Debug\Ejemplo1WF.pdb
+C:\Users\Hernan\Documents\Programación III\WinForm1\Ejemplo1WF\obj\Debug\Ejemplo1WF.csprojAssemblyReference.cache
+C:\Users\Hernan\Documents\Programación III\WinForm1\Ejemplo1WF\obj\Debug\Ejemplo1WF.Hola.resources
+C:\Users\Hernan\Documents\Programación III\WinForm1\Ejemplo1WF\obj\Debug\Ejemplo1WF.Properties.Resources.resources
+C:\Users\Hernan\Documents\Programación III\WinForm1\Ejemplo1WF\obj\Debug\Ejemplo1WF.csproj.GenerateResource.cache
+C:\Users\Hernan\Documents\Programación III\WinForm1\Ejemplo1WF\obj\Debug\Ejemplo1WF.csproj.CoreCompileInputs.cache
+C:\Users\Hernan\Documents\Programación III\WinForm1\Ejemplo1WF\obj\Debug\Ejemplo1WF.exe
+C:\Users\Hernan\Documents\Programación III\WinForm1\Ejemplo1WF\obj\Debug\Ejemplo1WF.pdb

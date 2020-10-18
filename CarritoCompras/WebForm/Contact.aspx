@@ -1,17 +1,21 @@
-﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="WebForm.Contact" %>
+﻿<%@ Page Title="Contacto" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="WebForm.Contact" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2><%: Title %>.</h2>
-    <h3>Your contact page.</h3>
+    <h3 class=".text-warning">Hernan Villalba.</h3>
     <address>
-        One Microsoft Way<br />
-        Redmond, WA 98052-6399<br />
-        <abbr title="Phone">P:</abbr>
-        425.555.0100
+        <strong>Perfil en </strong><a href="https://www.linkedin.com/in/hernangvillalba/">LinkedIn</a><br />
+        <strong>Proyectos en </strong><a href="https://github.com/HernanVillalba?tab=repositories">GitHub</a><br />
+        <strong>Correo: </strong><a class=".alert-link" href="mailto:villalbahernan111@gmail.com">Contacto@HernanVi.com</a>
+    </address>
+    <div>
+    </div>
+    <h3>Oscar Bianchi</h3>
+    <address>
+        <strong>Perfil en </strong><a href="https://www.linkedin.com/in/oscar-alberto-bianchi-di-rocco-512280163/">LinkedIn</a><br />
+        <strong>Proyectos en </strong><a href="https://github.com/oskiman18">GitHub</a><br />
     </address>
 
-    <address>
-        <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-        <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+    <a class="btn btn-primary" href="Default.aspx">Volver</a>
     </address>
 </asp:Content>
