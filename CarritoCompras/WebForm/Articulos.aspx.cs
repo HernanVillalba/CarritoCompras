@@ -17,10 +17,17 @@ namespace WebForm
             //datagriedview
             ArticuloNegocio negocio = new ArticuloNegocio();
             ListaArticulo = negocio.Listar();
-            dgvArticulos.DataSource = ListaArticulo;
-            dgvArticulos.DataBind();
 
+        }
 
+        protected void btnDetalles_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Detalles.aspx?key=" + tbID.Text);
+        }
+
+        protected void btnAgregarCarrito_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Carrito.aspx");
         }
     }
 }
