@@ -32,7 +32,7 @@
                 <div class="card-body">
                     <h5 class="card-title"><%= item.Nombre %></h5>
                     <p class="card-text">$<%=item.Precio%></p>
-                    <a Class="btn btn-primary" href="Detalles.aspx?idArticulo=<%=item.Id.ToString()%>" style="background-color:deepskyblue;"> Detalle </a>
+                    <a Class="btn btn-primary" href="Detalles.aspx?IDArticulo=<%=item.Id.ToString()%>" style="background-color:deepskyblue;"> Detalle </a>
                     <asp:Button ID="btnAgregarCarrito" CssClass="btn btn-primary" Text="Agregar al carrito" OnClick="btnAgregarCarrito_Click" runat="server" />
                 </div>
             </div>
