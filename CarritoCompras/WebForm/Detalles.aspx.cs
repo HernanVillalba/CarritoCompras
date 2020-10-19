@@ -11,13 +11,21 @@ namespace WebForm
 {
     public partial class Detalles : System.Web.UI.Page
     {
+        public Articulos art { set; get; }
         public List<Articulos> ListaArticulos { set; get; }
-        public string valor = "";
         protected void Page_Load(object sender, EventArgs e)
         {
             ArticuloNegocio negocio = new ArticuloNegocio();
-            ListaArticulos = negocio.Listar();
-            valor = Convert.ToString(Request.QueryString["key"]);
+            List<Articulos> listaAux;
+            try
+            {
+
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
     }
 }

@@ -22,7 +22,7 @@ namespace WebForm
 
         protected void btnDetalles_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Detalles.aspx?key=" + tbID.Text);
+            Response.Redirect("Detalles.aspx");
         }
 
         protected void btnAgregarCarrito_Click(object sender, EventArgs e)

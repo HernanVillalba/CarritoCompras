@@ -30,8 +30,6 @@ namespace Negocio
                 //se manda la query a seleccionar registros
                 Lector = Comando.ExecuteReader();
 
-
-                //Logica una vez conectado, ¿qué tenemos que hacer?
                 while (Lector.Read())
                 {
                     Articulos Aux = new Articulos();
