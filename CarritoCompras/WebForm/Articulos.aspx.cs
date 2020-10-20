@@ -12,6 +12,7 @@ namespace WebForm
     public partial class InicioWeb : System.Web.UI.Page
     {
         public List<Articulos> ListaArticulo { get; set; }
+        public Articulos articuloBusqueda { set; get; }
         protected void Page_Load(object sender, EventArgs e)
         {
             //datagriedview
@@ -20,14 +21,9 @@ namespace WebForm
 
         }
 
-        protected void btnDetalles_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("Detalles.aspx");
-        }
-
         protected void btnAgregarCarrito_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Carrito.aspx");
+
         }
     }
 }

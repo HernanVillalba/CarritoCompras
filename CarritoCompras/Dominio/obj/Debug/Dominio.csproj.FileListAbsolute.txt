@@ -45,3 +45,9 @@ C:\Users\Hernan\Desktop\copia-master\Dominio\obj\Debug\Dominio.csprojAssemblyRef
 C:\Users\Hernan\Desktop\copia-master\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
 C:\Users\Hernan\Desktop\copia-master\Dominio\obj\Debug\Dominio.dll
 C:\Users\Hernan\Desktop\copia-master\Dominio\obj\Debug\Dominio.pdb
+C:\Users\Hernan\Documents\Programación III\CarritoCompras\Dominio\bin\Debug\Dominio.dll
+C:\Users\Hernan\Documents\Programación III\CarritoCompras\Dominio\bin\Debug\Dominio.pdb
+C:\Users\Hernan\Documents\Programación III\CarritoCompras\Dominio\obj\Debug\Dominio.csprojAssemblyReference.cache
+C:\Users\Hernan\Documents\Programación III\CarritoCompras\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Hernan\Documents\Programación III\CarritoCompras\Dominio\obj\Debug\Dominio.dll
+C:\Users\Hernan\Documents\Programación III\CarritoCompras\Dominio\obj\Debug\Dominio.pdb
