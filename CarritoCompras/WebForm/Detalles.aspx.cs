@@ -14,7 +14,7 @@ namespace WebForm
         public Articulos articuloDetalles { set; get; }
 
         public List<Articulos> ListaArticulosDetalles { set; get; }
-        public Detalles()
+        private Detalles()
         {
             articuloDetalles = null;
         }
@@ -27,7 +27,7 @@ namespace WebForm
                 if(Request.QueryString["IDArticulo"] == "") { Response.Redirect("Articulos.aspx"); }
                 
                 ListaAux = negocio.Listar();
-                int IDAux = Int32.Parse(Request.QueryString["IDArticulo"]);
+                int IDAux = Int32.Parse( Request.QueryString["IDArticulo"]);
                 articuloDetalles = ListaAux.Find(i => i.Id == IDAux);
                 if(articuloDetalles == null) { Response.Redirect("Articulos.aspx"); }
                 

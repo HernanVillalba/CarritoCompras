@@ -13,56 +13,30 @@
     </style>
 
     <div class="jumbotron">
-        <h1 class="display-5" style="resize: both;">Herosky - Mancos y asociados</h1>
+        <h1 class="display-5" style="resize: both;">Heroski - Malvados y asociados</h1>
         <p class="lead">Los mejores precios los conseguís acá!</p>
         <hr class="my-5">
         <p class="lead">
             <asp:TextBox ID="tbBuscar" runat="server" />
-            <asp:Button ID="btnBuscar" runat="server" OnClick="Button1_Click" Text="Buscar" />
+            <a class="btn btn-primary btn-lg" href="#" role="button">Buscar</a>
         </p>
     </div>
 
 
     <div class="row">
-        <%
-            if (((List<Dominio.Articulos>)Session["busqueda"]).Count() == 0)
-            {
-
-                foreach (Dominio.Articulos item in ListArt)
-                {%>
+        <%foreach (Dominio.Articulos item in ListaArticulo)
+            {%>
         <div class="col-md-4">
-            <div class="card" style="width: 18rem; background-color: transparent; color: #FFFFFF;">
-                <img src="<%= item.Imagen %>" class="card-img-top" alt="Sin imagen" height="180" width="180" onclick="btnDetalles_Click" style="background-color:white">
+            <div class="card" style="width: 18rem; background-color: transparent;">
+                <img src="<%= item.Imagen %>" class="card-img-top" alt="Sin imagen" height="150" width="180" onclick="btnDetalles_Click">
                 <div class="card-body">
-                    <h5 class="card-title" style="color: #FFFFFF"><%= item.Nombre %></h5>
-                    <p class="card-text" style="color: #FFFFFF">$<%=item.Precio%></p>
+                    <h5 class="card-title"><%= item.Nombre %></h5>
+                    <p class="card-text">$<%=item.Precio%></p>
                     <a Class="btn btn-primary" href="Detalles.aspx?IDArticulo=<%=item.Id.ToString()%>" style="background-color:deepskyblue;"> Detalle </a>
-                    <a class="btn btn-primary" href="CarritoWeb.aspx?IDsrc=<%=item.Id.ToString()%>" style="background-color:deepskyblue">Agregar</a>
+                    <asp:Button ID="btnAgregarCarrito" CssClass="btn btn-primary" Text="Agregar al carrito" OnClick="btnAgregarCarrito_Click" runat="server" />
                 </div>
             </div>
         </div>
-        <%}
-            }%>
-          <% 
-
-              else
-              {
-                  foreach (Dominio.Articulos item in ((List<Dominio.Articulos>)Session["busqueda"]))
-                  {%>
-        <div class="col-md-4">
-            <div class="card" style="width: 18rem; background-color: transparent; color: #FFFFFF;">
-                <img src="<%= item.Imagen %>" class="card-img-top" alt="Sin imagen" height="180" width="180" onclick="btnDetalles_Click" style="background-color:white">
-                
-                    <div class="card-body">
-                    <h5 class="card-title" style="color: #FFFFFF"><%= item.Nombre %></h5>
-                    <p class="card-text" style="color: #FFFFFF">$<%=item.Precio%></p>
-                    <a Class="btn btn-primary" href="Detalles.aspx?IDArticulo=<%=item.Id.ToString()%>" style="background-color:deepskyblue;"> Detalle </a>
-                    <a class="btn btn-primary" href="CarritoWeb.aspx?IDsrc=<%=item.Id.ToString()%>" style="background-color:deepskyblue">Agregar</a>
-
-                    </div>
-            </div>
-        </div>
-        <%}
-            }%>
+        <%} %>
     </div>
 </asp:Content>
