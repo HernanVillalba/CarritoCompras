@@ -13,33 +13,56 @@
     </style>
 
     <div class="jumbotron">
-        <div class="lead">
-            <label for="inputPassword2" class="sr-only">Busqueda</label>
-            <input type="password" class="form-control" id="inputPassword2" placeholder="Busqueda">
-            <a class="btn btn-primary" href="#">Buscar</a>
-        </div>
+        <h1 class="display-5" style="resize: both;">Herosky - Mancos y asociados</h1>
+        <p class="lead">Los mejores precios los conseguís acá!</p>
+        <hr class="my-5">
+        <p class="lead">
+            <asp:TextBox ID="tbBuscar" runat="server" />
+            <asp:Button ID="btnBuscar" runat="server" OnClick="Button1_Click" Text="Buscar" />
+        </p>
     </div>
 
 
     <div class="row">
-        <%foreach (Dominio.Articulos item in ListaArticulo)
-            {%>
-        <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="<%= item.Imagen %>" alt="Card image cap">
-                <div class="card-body">
-                    <ul class="list-group">
-                        <li class="list-group-item list-group-item-white"><%= item.Nombre %></li>
-                    </ul>
-                    <ul class="list-group">
-                        <li class="list-group-item list-group-item-white">$<%= item.Precio %></li>
-                    </ul>
-                </div>
-                <a class="btn btn-primary" href="Detalles.aspx?IDArticulo=<%=item.Id.ToString()%>" style="background-color: deepskyblue;">Detalle </a>
-                <asp:Button ID="btnAgregarCarrito" CssClass="btn btn-primary" Text="Agregar al carrito" OnClick="btnAgregarCarrito_Click" runat="server" />
-            </div>
+        <%
+            if (((List<Dominio.Articulos>)Session["busqueda"]).Count() == 0)
+            {
 
+                foreach (Dominio.Articulos item in ListArt)
+                {%>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem; background-color: transparent; color: #FFFFFF;">
+                <img src="<%= item.Imagen %>" class="card-img-top" alt="Sin imagen" height="180" width="180" onclick="btnDetalles_Click" style="background-color:white">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: #FFFFFF"><%= item.Nombre %></h5>
+                    <p class="card-text" style="color: #FFFFFF">$<%=item.Precio%></p>
+                    <a Class="btn btn-primary" href="Detalles.aspx?IDArticulo=<%=item.Id.ToString()%>" style="background-color:deepskyblue;"> Detalle </a>
+                    <a class="btn btn-primary" href="CarritoWeb.aspx?IDsrc=<%=item.Id.ToString()%>" style="background-color:deepskyblue">Agregar</a>
+                </div>
+            </div>
         </div>
-        <%} %>
+        <%}
+            }%>
+          <% 
+
+              else
+              {
+                  foreach (Dominio.Articulos item in ((List<Dominio.Articulos>)Session["busqueda"]))
+                  {%>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem; background-color: transparent; color: #FFFFFF;">
+                <img src="<%= item.Imagen %>" class="card-img-top" alt="Sin imagen" height="180" width="180" onclick="btnDetalles_Click" style="background-color:white">
+                
+                    <div class="card-body">
+                    <h5 class="card-title" style="color: #FFFFFF"><%= item.Nombre %></h5>
+                    <p class="card-text" style="color: #FFFFFF">$<%=item.Precio%></p>
+                    <a Class="btn btn-primary" href="Detalles.aspx?IDArticulo=<%=item.Id.ToString()%>" style="background-color:deepskyblue;"> Detalle </a>
+                    <a class="btn btn-primary" href="CarritoWeb.aspx?IDsrc=<%=item.Id.ToString()%>" style="background-color:deepskyblue">Agregar</a>
+
+                    </div>
+            </div>
+        </div>
+        <%}
+            }%>
     </div>
 </asp:Content>

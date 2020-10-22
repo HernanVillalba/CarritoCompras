@@ -107,7 +107,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Carrito.aspx" />
+    <Content Include="Chango.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -252,12 +252,12 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Carrito.aspx.cs">
-      <DependentUpon>Carrito.aspx</DependentUpon>
+    <Compile Include="Chango.aspx.cs">
+      <DependentUpon>Chango.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Carrito.aspx.designer.cs">
-      <DependentUpon>Carrito.aspx</DependentUpon>
+    <Compile Include="Chango.aspx.designer.cs">
+      <DependentUpon>Chango.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
