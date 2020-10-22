@@ -9,6 +9,7 @@ namespace Dominio
 {
     public class Articulos
     {
+        //viendo el tutorial de masssiPrograma para usar gitBash
         public int Id { get; set; }
         public string Codigo { get; set; }
         public string Nombre { get; set; }
