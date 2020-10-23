@@ -4,20 +4,21 @@
 
 <html lang="es">
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%: Page.Title %> - Mi aplicación ASP.NET</title>
+    <link href="Content/bootstrao.min.css" rel="stylesheet" type="text/css" />
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
 
-    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <style>
-        body{
-            margin:0;
+        body {
+            margin: 0;
             min-height: 100vh;
             background-image: url(https://i.pinimg.com/originals/a0/4b/23/a04b23beb1b91d4aed1b730140264f26.jpg);
             background-repeat: no-repeat;
@@ -25,11 +26,10 @@
             background-position: center;
         }
     </style>
-    
+
 </head>
 <body>
     <form runat="server">
-        
 
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
@@ -53,7 +53,7 @@
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
-            
+
             <footer>
                 <hr />
                 <p>&copy; <%: DateTime.Now.Year %> - Heroski</p>
