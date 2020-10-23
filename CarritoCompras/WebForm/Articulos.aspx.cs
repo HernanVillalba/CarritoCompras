@@ -34,32 +34,7 @@ namespace WebForm
             }
         }
 
-        protected void btnDetalles_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("Detalles.aspx");
-        }
-
-        protected void btnAgregarCarrito_Click(object sender, EventArgs e)
-        {   
-            
-            CarritoNegocio chango = new CarritoNegocio();
-            ArticuloNegocio negocio = new ArticuloNegocio();
-            List<Articulos> ListaAux;
-            ListaAux = negocio.Listar();
-
-            try
-            {
-              //  ListaAux.Add();
-
-            }
-            catch (Exception ex)
-            {
-                Response.Redirect("Error.aspx");
-                throw;
-            }
-        }
-
-        protected void Button1_Click(object sender, EventArgs e)
+        protected void btnBuscar_Click(object sender, EventArgs e)
         {
             ArticuloNegocio negocio = new ArticuloNegocio();
             try
@@ -75,12 +50,10 @@ namespace WebForm
                     Response.Redirect("Articulos.aspx?var=1");
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-
+                throw;
             }
         }
-
-     
     }
 }

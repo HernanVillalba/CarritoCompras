@@ -16,21 +16,23 @@ namespace WebForm
         public List<Articulos> ListaArticulosDetalles { set; get; }
         public Detalles()
         {
-            articuloDetalles = null;
         }
         protected void Page_Load(object sender, EventArgs e)
         {
             ArticuloNegocio negocio = new ArticuloNegocio();
-            List<Articulos> ListaAux;
+            List<Articulos> ListaAux = new List<Articulos>();
             try
             {
-                if(Request.QueryString["IDArticulo"] == "") { Response.Redirect("Articulos.aspx"); }
-                
+                if (Request.QueryString["IDArticulo"] == "" || articuloDetalles == null)
+                {
+                    Response.Redirect("Articulos.aspx");
+                }
+
                 ListaAux = negocio.Listar();
-                int IDAux = Int32.Parse(Request.QueryString["IDArticulo"]);
+                int IDAux = Convert.ToInt32(Request.QueryString["IDArticulo"]);
                 articuloDetalles = ListaAux.Find(i => i.Id == IDAux);
-                if(articuloDetalles == null) { Response.Redirect("Articulos.aspx"); }
-                
+                //articuloDetalles = ListaAux.Find(i => i.Id == Convert.ToInt32(Request.QueryString["IDArticulo"]));
+
             }
             catch (Exception ex)
             {

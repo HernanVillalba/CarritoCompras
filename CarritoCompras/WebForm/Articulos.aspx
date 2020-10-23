@@ -18,9 +18,10 @@
         <hr class="my-5">
         <p class="lead">
             <asp:TextBox ID="tbBuscar" runat="server" />
-            <asp:Button ID="btnBuscar" runat="server" OnClick="Button1_Click" Text="Buscar" />
+            <asp:Button ID="btnBuscar" runat="server" OnClick="btnBuscar_Click" Text="Buscar" />
         </p>
     </div>
+    
 
 
     <div class="row">
@@ -36,8 +37,8 @@
                 <div class="card-body">
                     <h5 class="card-title" style="color: #FFFFFF"><%= item.Nombre %></h5>
                     <p class="card-text" style="color: #FFFFFF">$<%=item.Precio%></p>
-                    <a Class="btn btn-primary" href="Detalles.aspx?IDArticulo=<%=item.Id.ToString()%>" style="background-color:deepskyblue;"> Detalle </a>
-                    <a class="btn btn-primary" href="CarritoWeb.aspx?IDsrc=<%=item.Id.ToString()%>" style="background-color:deepskyblue">Agregar</a>
+                    <a Class="btn btn-primary" href="Detalles.aspx?IDArticulo=<%=item.Id.ToString()%>" style="background-color:deepskyblue;"> Detalles </a>
+                    <a class="btn btn-primary" href="Chango.aspx?IDsrc=<%=item.Id.ToString()%>&agregar=1" style="background-color:deepskyblue">Agregar</a>
                 </div>
             </div>
         </div>
@@ -57,7 +58,7 @@
                     <h5 class="card-title" style="color: #FFFFFF"><%= item.Nombre %></h5>
                     <p class="card-text" style="color: #FFFFFF">$<%=item.Precio%></p>
                     <a Class="btn btn-primary" href="Detalles.aspx?IDArticulo=<%=item.Id.ToString()%>" style="background-color:deepskyblue;"> Detalle </a>
-                    <a class="btn btn-primary" href="CarritoWeb.aspx?IDsrc=<%=item.Id.ToString()%>" style="background-color:deepskyblue">Agregar</a>
+                    <a class="btn btn-primary" href="Chango.aspx?IDsrc=<%=item.Id.ToString()%>" style="background-color:deepskyblue">Agregar</a>
 
                     </div>
             </div>
