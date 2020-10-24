@@ -14,22 +14,21 @@ namespace WebForm
         public Articulos articuloDetalles { set; get; }
 
         public List<Articulos> ListaArticulosDetalles { set; get; }
-        public Detalles()
-        {
-        }
+     
         protected void Page_Load(object sender, EventArgs e)
         {
+            int IDAux = Convert.ToInt32(Request.QueryString["IDsrc"]);
             ArticuloNegocio negocio = new ArticuloNegocio();
-            List<Articulos> ListaAux = new List<Articulos>();
+            List<Articulos> ListaAux =  negocio.Listar();
             try
             {
-                if (Request.QueryString["IDArticulo"] == "" || articuloDetalles == null)
+                if (Request.QueryString["IDsrc"] == "")
                 {
                     Response.Redirect("Articulos.aspx");
                 }
 
-                ListaAux = negocio.Listar();
-                int IDAux = Convert.ToInt32(Request.QueryString["IDArticulo"]);
+                
+           
                 articuloDetalles = ListaAux.Find(i => i.Id == IDAux);
                 //articuloDetalles = ListaAux.Find(i => i.Id == Convert.ToInt32(Request.QueryString["IDArticulo"]));
 

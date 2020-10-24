@@ -21,7 +21,7 @@
         </div>
         <div class="btn-group">
             <a href="Articulos.aspx" class="btn btn-primary" style="background-color: deepskyblue;" type="button">Volver</a>
-            <a href="Chango.aspx?IDArticulo=<%= articuloDetalles.Id %>" class="btn btn-primary" type="button">Agregar al Carrito</a>
+            <a href="Chango.aspx?IDsrc=<%= articuloDetalles.Id.ToString()%>&agregar=1" class="btn btn-primary" type="button">Agregar al Carrito</a>
         </div>
     </div>
 </asp:Content>
