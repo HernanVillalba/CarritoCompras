@@ -46,7 +46,7 @@
                     </ul>
                 </div>
                 <div class="btn-group">
-                    <a href="Detalles.aspx?IDsrc=<%= item.Id %>" class="btn btn-primary" style="background-color: deepskyblue;" type="button">Volver</a>
+                    <a href="Detalles.aspx?IDsrc=<%= item.Id %>" class="btn btn-primary" style="background-color: deepskyblue;" type="button">Detalles</a>
                     <a href="Chango.aspx?IDsrc=<%= item.Id.ToString()%>&agregar=1" class="btn btn-primary" type="button">Agregar al Carrito</a>
                 </div>
             </div>
