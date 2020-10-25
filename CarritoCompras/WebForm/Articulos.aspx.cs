@@ -17,6 +17,9 @@ namespace WebForm
         protected void Page_Load(object sender, EventArgs e)
         {
             ArticuloNegocio negocio = new ArticuloNegocio();
+            dgvArticulos.DataSource = negocio.Listar();
+            //dgvArticulos.DataBind();
+            
             var = Convert.ToInt32(Request.QueryString["var"]);
 
             try
@@ -32,6 +35,7 @@ namespace WebForm
             {
                 throw ex;
             }
+            
         }
 
         protected void btnBuscar_Click(object sender, EventArgs e)

@@ -17,6 +17,7 @@ namespace WebForm
         protected int IDAux;
         protected int agregar;
         protected int eliminar;
+        protected int vaciar;
         protected Articulos articuloBuscado = new Articulos();
         protected ArticuloNegocio negocio = new ArticuloNegocio();
         protected void Page_Load(object sender, EventArgs e)
@@ -27,26 +28,59 @@ namespace WebForm
             IDAux = Convert.ToInt32(Request.QueryString["IDsrc"]);
             agregar = Convert.ToInt32(Request.QueryString["agregar"]);
             articuloBuscado = (negocio.Listar()).Find(i => i.Id == IDAux);
-            if (agregar == 1)
+            if (IDAux != 0 && agregar == 1)
             {
                 AgregarItemLista();
+                //para Re-direccionar luego de cargar un articulo
+                Response.Redirect("Articulos.aspx");
             }
-            if(eliminar == 1)
+            else if (IDAux != 0 && eliminar == 1)
             {
-                Session["ListaArtAgregados"] = ListaAux = new List<Articulos>();
-                ListaCarrito = ListaAux = new List<Articulos>();
+                EliminarItem();
+                //para Re-cargar el carro después de eliminar
+                Response.Redirect("Chango.aspx");
+            }
+            else if(IDAux != 0 && vaciar == 1)
+            {
+                VaciarCarrito();
+                Response.Redirect("Chango.aspx");
             }
 
-            //para mostrar precio y cantidad
+
+            CargarEtiquetasPrecioYCantidad();
+        }
+
+        protected void VaciarCarrito()
+        {
+            ListaAux = new List<Articulos>();
+            ListaCarrito = ListaAux;
+            Session["ListaArtAgregados"] = ListaCarrito;
+            ListaCarrito = (List<Articulos>)Session["ListaArtAgregados"];
+        }
+        protected void CargarEtiquetasPrecioYCantidad()
+        {
+            //para cargar precio y cantidad
             foreach (Articulos item in ListaCarrito)
             {
                 carro.Cantidad++;
                 carro.Total += item.Precio;
             }
 
-            //cargo las etiquetas
+            //cargo las etiquetas para mostrar
             lblCantidad.Text = carro.Cantidad.ToString();
             lblTotal.Text = carro.Total.ToString();
+        }
+        protected void EliminarItem()
+        {
+            foreach (Articulos item in ListaCarrito)
+            {
+                if (item.Id == IDAux)
+                {
+                    ListaCarrito.Remove(item);
+                    Session["ListaArtAgregados"] = ListaCarrito;
+                    Response.Redirect("Chango.aspx");
+                }
+            }
         }
         protected void ExisteListaAgregados()
         {
@@ -54,19 +88,15 @@ namespace WebForm
             {
                 Session["ListaArtAgregados"] = new List<Articulos>();
             }
+            else
+            {
+                ListaCarrito = (List<Articulos>)Session["ListaArtAgregados"];
+            }
         }
         protected void AgregarItemLista()
         {
-
-            ArticuloNegocio negocio = new ArticuloNegocio();
-
             try
             {
-                /*
-                articuloBuscado = (negocio.Listar()).Find(i => i.Id == IDAux);
-                ((List<Articulos>)Session["ListaArtAgregados"]).Add(articuloBuscado);
-                ListaCarrito = ((List<Articulos>)Session["ListaArtAgregados"]);
-                */
                 if (Session["ListaArtAgregados"] == null) //si no existe, lo agrega como primero
                 {
                     ListaCarrito.Add(articuloBuscado);

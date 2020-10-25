@@ -33,7 +33,7 @@ namespace WebForm
                 //articuloDetalles = ListaAux.Find(i => i.Id == Convert.ToInt32(Request.QueryString["IDArticulo"]));
 
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 Response.Redirect("Error.aspx");
 
