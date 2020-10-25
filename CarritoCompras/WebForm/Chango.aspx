@@ -8,7 +8,7 @@
     <div class="jumbotron">
         <h1 class="display-5" style="resize: both;">No hay articulos agregados. Qué esperas? ;)</h1>
         <div>
-            <a href="Articulos.aspx" class="btn btn-primary">Volver</a>
+            <a href="Articulos.aspx" class="btn btn-primary">Volver a productos</a>
         </div>
     </div>
     <% } %>

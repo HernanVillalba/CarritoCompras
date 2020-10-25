@@ -38,14 +38,14 @@
             </button>
             <div class="collapse navbar-collapse" id="navMenu">
                 <div class="navbar-nav">
-                    <a class="btn btn-info" href="Default.aspx">Inicio<span class="sr-only">(current)</span></a>
-                    <a class="btn btn-info" href="Articulos.aspx">Articulos</a>
-                    <a class="btn btn-info" href="Chango.aspx">Contacto</a>
+                    <a class="btn btn-dark" href="Default.aspx">Inicio<span class="sr-only">(current)</span></a>
+                    <a class="btn btn-dark" href="Articulos.aspx">Articulos</a>
+                    <a class="btn btn-dark" href="Chango.aspx">Contacto</a>
                 </div>
             </div>
             <nav class="navbar navbar-light bg-light" style="float: right;">
                 <a class="navbar-brand" href="Chango.aspx">
-                    <img src="https://images.vexels.com/media/users/3/200097/isolated/preview/942820836246f08c2d6be20a45a84139-icono-de-carrito-de-compras-carrito-de-compras-by-vexels.png" width="80" height="80" alt="Sin imagen de carrito">
+                    <img src="https://image.flaticon.com/icons/png/512/107/107831.png" width="80" height="80" alt="Sin imagen de carrito">
                 </a>
             </nav>
         </nav>
