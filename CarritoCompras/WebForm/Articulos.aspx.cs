@@ -19,11 +19,12 @@ namespace WebForm
             ArticuloNegocio negocio = new ArticuloNegocio();
             dgvArticulos.DataSource = negocio.Listar();
             //dgvArticulos.DataBind();
-            
+
             var = Convert.ToInt32(Request.QueryString["var"]);
 
             try
-            { ListArt = negocio.Listar();
+            {
+                ListArt = negocio.Listar();
                 Session.Add("ListArt", ListArt);
                 if (var == 0)
                 {
@@ -35,7 +36,7 @@ namespace WebForm
             {
                 throw ex;
             }
-            
+
         }
 
         protected void btnBuscar_Click(object sender, EventArgs e)
@@ -45,11 +46,12 @@ namespace WebForm
             {
                 if (tbBuscar.Text == "")
                 {
-                    busqueda = negocio.Listar();
+                    //busqueda = negocio.Listar();
                     Session.Add("busqueda", busqueda);
                 }
                 else
-                {   busqueda = ListArt.FindAll(i => i.Nombre.ToUpper().Contains(tbBuscar.Text.ToUpper()));
+                {
+                    busqueda = ListArt.FindAll(i => i.Nombre.ToUpper().Contains(tbBuscar.Text.ToUpper()));
                     Session.Add("busqueda", busqueda);
                     Response.Redirect("Articulos.aspx?var=1");
                 }

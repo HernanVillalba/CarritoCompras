@@ -27,7 +27,9 @@ namespace WebForm
             eliminar = Convert.ToInt32(Request.QueryString["delete"]);
             IDAux = Convert.ToInt32(Request.QueryString["IDsrc"]);
             agregar = Convert.ToInt32(Request.QueryString["agregar"]);
+            vaciar = Convert.ToInt32(Request.QueryString["empty"]);
             articuloBuscado = (negocio.Listar()).Find(i => i.Id == IDAux);
+
             if (IDAux != 0 && agregar == 1)
             {
                 AgregarItemLista();
@@ -40,7 +42,7 @@ namespace WebForm
                 //para Re-cargar el carro después de eliminar
                 Response.Redirect("Chango.aspx");
             }
-            else if(IDAux != 0 && vaciar == 1)
+            else if(vaciar == 1)
             {
                 VaciarCarrito();
                 Response.Redirect("Chango.aspx");
@@ -55,7 +57,6 @@ namespace WebForm
             ListaAux = new List<Articulos>();
             ListaCarrito = ListaAux;
             Session["ListaArtAgregados"] = ListaCarrito;
-            ListaCarrito = (List<Articulos>)Session["ListaArtAgregados"];
         }
         protected void CargarEtiquetasPrecioYCantidad()
         {
