@@ -32,7 +32,7 @@
     <form runat="server">
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="Default.aspx">Heroski</a>
+            <a class="navbar-brand" href="Default.aspx">Herosky</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -40,7 +40,7 @@
                 <div class="navbar-nav">
                     <a class="btn btn-dark" href="Default.aspx">Inicio<span class="sr-only">(current)</span></a>
                     <a class="btn btn-dark" href="Articulos.aspx">Articulos</a>
-                    <a class="btn btn-dark" href="Chango.aspx">Contacto</a>
+                    <a class="btn btn-dark" href="Contact.aspx">Contacto</a>
                 </div>
             </div>
             <nav class="navbar navbar-light bg-light" style="float: right;">
@@ -56,7 +56,7 @@
 
             <footer>
                 <hr />
-                <p>&copy; <%: DateTime.Now.Year %> - Heroski</p>
+                <p style="color:white">&copy; <%: DateTime.Now.Year %> - Herosky</p>
             </footer>
         </div>
 

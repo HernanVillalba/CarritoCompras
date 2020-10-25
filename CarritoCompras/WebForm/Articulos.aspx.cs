@@ -25,11 +25,11 @@ namespace WebForm
             try
             {
                 ListArt = negocio.Listar();
-                Session.Add("ListArt", ListArt);
+                Session.Add("busqueda", ListArt);
                 if (var == 0)
                 {
                     busqueda = new List<Articulos>();
-                    Session.Add("busqueda", busqueda);
+                    Session.Add("busqueda", ListArt);
                 }
             }
             catch (Exception ex)
@@ -41,25 +41,29 @@ namespace WebForm
 
         protected void btnBuscar_Click(object sender, EventArgs e)
         {
-            ArticuloNegocio negocio = new ArticuloNegocio();
             try
             {
                 if (tbBuscar.Text == "")
                 {
-                    //busqueda = negocio.Listar();
-                    Session.Add("busqueda", busqueda);
+                    Session.Add("busqueda", ListArt);
                 }
-                else
+                else 
                 {
                     busqueda = ListArt.FindAll(i => i.Nombre.ToUpper().Contains(tbBuscar.Text.ToUpper()));
                     Session.Add("busqueda", busqueda);
-                    Response.Redirect("Articulos.aspx?var=1");
                 }
+            
             }
             catch (Exception)
             {
                 throw;
             }
+        }
+
+        protected void btnListar_Click(object sender, EventArgs e)
+        {
+            Session.Add("busqueda", ListArt);
+            tbBuscar.Text = "";
         }
     }
 }

@@ -19,6 +19,7 @@
         <p class="lead">
             <asp:TextBox ID="tbBuscar" runat="server" />
             <asp:Button ID="btnBuscar" runat="server" OnClick="btnBuscar_Click" Text="Buscar" />
+            <asp:Button ID="btnListar" Onclick="btnListar_Click" Text="Listar Todo" runat="server" />
         </p>
     </div>
 
@@ -26,28 +27,11 @@
 
     <div class="row">
         <%
-            if (((List<Dominio.Articulos>)Session["busqueda"]).Count() == 0)
-            {
-
-                foreach (Dominio.Articulos item in ListArt)
-                {%>
-        <div class="col-md-4">
-            <div class="card" style="width: 18rem; background-color: transparent;">
-                <img class="card-img-top" src="<%= item.Imagen %>" alt="sin imagen">
-                <div class="card-body">
-                    <ul class="list-group">
-                        <li class="list-group-item list-group-item-white"><%= item.Nombre %></li>
-                    </ul>
-                </div>
-                <div class="btn-group">
-                    <a href="Detalles.aspx?IDsrc=<%= item.Id %>" class="btn btn-primary" style="background-color: deepskyblue;" type="button">Detalles</a>
-                    <a href="Chango.aspx?IDsrc=<%= item.Id.ToString()%>&agregar=1" class="btn btn-primary" type="button">Agregar al Carrito</a>
-                </div>
-            </div>
-        </div>
-        <%}
-            }%>
-        <% 
+    if (((List<Dominio.Articulos>)Session["busqueda"]).Count() == 0)
+         {%>
+        <h1 style="color:white"> No hay un Articulo con ese Nombre, intente nuevamente! </h1>
+      
+        <% }
 
             else
             {
@@ -68,6 +52,6 @@
             </div>
         </div>
         <%}
-            }%>
+    }%>
     </div>
 </asp:Content>

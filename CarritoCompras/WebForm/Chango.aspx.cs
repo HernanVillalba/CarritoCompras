@@ -34,7 +34,7 @@ namespace WebForm
             {
                 AgregarItemLista();
                 //para Re-direccionar luego de cargar un articulo
-                Response.Redirect("Articulos.aspx");
+                Response.Redirect("Chango.aspx");
             }
             else if (IDAux != 0 && eliminar == 1)
             {

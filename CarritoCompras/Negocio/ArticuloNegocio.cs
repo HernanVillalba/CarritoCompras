@@ -13,28 +13,23 @@ namespace Negocio
     {
         public List<Articulos> Listar()
         {
-            ///Declarar la shit necesaria para poder conectarse 
             SqlConnection Conexion = new SqlConnection();
             SqlCommand Comando = new SqlCommand();
             SqlDataReader Lector;
             List<Articulos> lista = new List<Articulos>();
-            //Configurando conexion
             Conexion.ConnectionString = "data source = .\\SQLEXPRESS; initial catalog = CATALOGO_DB; integrated security = sspi";
             Comando.CommandType = System.Data.CommandType.Text;
             Comando.CommandText = "select a.id as IdArt, a.Codigo, a.nombre, a.descripcion, a.imagenurl, a.precio, c.id as IdCategoria, c.Descripcion as Categoria,m.id as IdMarca, m.Descripcion as Marca from ARTICULOS as a join CATEGORIAS c on a.IdCategoria = c.id join MARCAS as m on m.Id = a.IdMarca";
-            //se ejecuta la conexion
             Comando.Connection = Conexion;
             try
             {
                 Conexion.Open();
-                //se manda la query a seleccionar registros
                 Lector = Comando.ExecuteReader();
 
                 while (Lector.Read())
                 {
                     Articulos Aux = new Articulos();
-                    ///Tenemos que Instanciar un objeto auxiliar al que asignarle los valores
-                    ///leidos y de ahí sumarlo a la lista
+  
                     Aux.Id = (int)Lector["IdArt"];
                     Aux.Codigo = Lector.GetString(1);
                     Aux.Nombre = Lector.GetString(2);
@@ -87,11 +82,9 @@ namespace Negocio
 
         public void agregar(Articulos nuevo)
         {
-            ///Para agregar registros, no hay que tener un "Lector"
             SqlConnection Conexion = new SqlConnection();
             SqlCommand Comando = new SqlCommand();
             List<Articulos> lista = new List<Articulos>();
-            //configuración de la conexion
 
             Conexion.ConnectionString = "data source = .\\SQLEXPRESS; initial catalog = CATALOGO_DB; integrated security = sspi";
             Comando.CommandType = System.Data.CommandType.Text;

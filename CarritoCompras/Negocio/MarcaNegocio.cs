@@ -18,7 +18,6 @@ namespace Negocio
 
             List<Marca> Lista = new List<Marca>();
 
-            //configuracion
 
             conexion.ConnectionString = "data source = .\\SQLEXPRESS; initial catalog = CATALOGO_DB; integrated security = sspi";
 
