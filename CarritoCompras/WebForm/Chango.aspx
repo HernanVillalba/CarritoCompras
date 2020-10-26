@@ -16,11 +16,7 @@
     <%if (ListaCarrito.Count() > 0)
         {%>
     <div class="jumbotron">
-        <div style="float:right;">
-
-        <a href="Chango.aspx?empty=1" class="btn btn-primary" >Comprar</a>
-        </div>
-        <div>
+        <div style="font-size:20px;">
             <span class="badge badge-primary">Cantidad:
                 <asp:Label Text="0" ID="lblCantidad" runat="server" /></span>
             <br />
@@ -28,6 +24,7 @@
                 <asp:Label Text="0" ID="lblTotal" runat="server" /></span>
         </div>
         <div style="float: right;">
+            <a href="Chango.aspx?empty=1" class="btn btn-primary" style="background-color:#0d7377; border-bottom-color:#32e0c4;">Comprar</a>
             <a href="Articulos.aspx" class="btn btn-primary">Volver</a>
             <a href="Chango.aspx?empty=1" class="btn btn primary" style="background-color: red; color: white;">Vaciar carrito</a>
         </div>
@@ -47,7 +44,7 @@
                     </ul>
                 </div>
                 <div class="btn-group">
-                    <a class="btn btn-primary" href="Chango.aspx?IDsrc=<%=item.Id.ToString()%>&delete=<%=1.ToString() %>" style="background-color: deepskyblue">Eliminar</a>
+                    <a class="btn btn-dark" href="Chango.aspx?IDsrc=<%=item.Id.ToString()%>&delete=<%=1.ToString() %>" style="background-color: #ff414d">Eliminar</a>
                 </div>
             </div>
         </div>

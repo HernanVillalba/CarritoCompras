@@ -12,14 +12,17 @@
         }
     </style>
 
-    <div class="jumbotron">
+    <div class="jumbotron" style="width:900px; margin-left:auto;margin-right:auto;">
         <h1 class="display-5" style="resize: both;">Herosky - Mancos y asociados</h1>
         <p class="lead">Los mejores precios los conseguís acá!</p>
         <hr class="my-5">
         <p class="lead">
-            <asp:TextBox ID="tbBuscar" runat="server" />
-            <asp:Button ID="btnBuscar" runat="server" OnClick="btnBuscar_Click" Text="Buscar" />
-            <asp:Button ID="btnListar" Onclick="btnListar_Click" Text="Listar Todo" runat="server" />
+            <asp:TextBox ID="tbBuscar" runat="server"/>
+            <asp:Button ID="btnBuscar" runat="server" cssClass="btn btn-primary" OnClick="btnBuscar_Click" Text="Buscar" style="background-color:#51adcf;" />
+            <%if (((List<Dominio.Articulos>)Session["busqueda"]).Count() == 0)
+                {%>
+            <asp:Button ID="btnListar" Onclick="btnListar_Click" cssClass="btn btn-primary" Text="Listar Todo" runat="server" style="background-color:#0f3057;"/>
+            <% } %>
         </p>
     </div>
 
